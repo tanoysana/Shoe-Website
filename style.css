@@ -1,0 +1,615 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-bottom: 2px solid rgb(190, 187, 187);
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    
+}
+.navbar .nav{
+    display: flex;
+    list-style: none;
+}
+.navbar .shoes{
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.navbar .shoes #shoe{
+   color: rgb(209, 5, 209);
+}
+.navbar .shoes #s{
+    text-decoration: underline;
+    color: purple;
+}
+.navbar .nav li{
+    margin: 0 20px;
+    color: rgb(118, 116, 116);
+}
+.navbar .nav li:hover{
+    color: rgb(209, 5, 209);
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar .shopping a{
+    margin: 0px 10px;
+    color: black;
+}
+.navbar .shopping a:hover{
+    color: #c72092;
+}
+
+.container1 {
+    background-image: url("/image/bg1.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94vh;
+    padding-top: 5px;
+    /* border: 2px solid black; */
+}
+.container1 .shoe1 img{
+    height: 70vh;
+   
+}
+.nikeCollection{
+    height: 70vh;
+    width: 600px;
+    /* border: 1px solid red; */
+    margin-left: 70px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+.nikeCollection .nc1 #nc1_nike{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    font-weight: bold;
+    background: linear-gradient(to right, #c72092,#6c14d0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+.nikeCollection .nc1 #nc1_collection{
+    font-size: 50px;
+    background: linear-gradient(to right, #c72092,#6c14d0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+.nikeCollection .nc1{
+    margin-bottom: 20px;
+}
+.nikeCollection .nc2{
+    margin: 10px 0px 90px;
+}
+.btn1 a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.btn1 #btn1{
+    height:30px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #c72092,#6c14d0);
+    
+}
+.socialLinks{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.socialLinks i{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.shoe1 img{
+    position: relative;
+    right: -120px;
+}
+
+.container2{
+    height: 100vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container2 .products h1{
+    font-size: 50px;
+    background: linear-gradient(to right, #c72092,#6c14d0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 30px;
+}
+.container2 .shoelist1{
+    height: 300px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow:0px 1px 10px  #6c14d0 ;
+}
+.container2 .pFirstrow{
+    display: flex;
+    width: 150vh;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+.container2 .pSecondrow{
+    display: flex;
+    width: 150vh;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+.shoelist1 .sub1_shoelist1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.shoelist1 img{
+    height: 100px;
+    /* border: 1px solid green; */
+    margin-right: 30px;
+    
+}
+.shoelist1 .sub1_shoelist1 .sub2_shoelist1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+.shoelist1 .sub1_shoelist1 .sub2_shoelist1 i{
+    height: 15px;
+    width: 15px;
+    border: 1px solid rgb(128, 126, 126);
+    text-align: center;
+    line-height: 15px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;   
+}
+.shoelist1{
+    text-align: center;
+}
+.shoelist1 .nike{
+    margin: 10px 0px 5px;
+}
+.shoelist1 .price{
+    margin: 5px 0px;
+    font-weight: bold;
+}
+.shoelist1 .rating{
+    margin: 5px 0px;
+    color: rgb(255, 217, 0);
+}
+.shoelist1 #addToCart{
+    margin-top: 5px;
+    height: 25px;
+    background: linear-gradient(to right, #c72092,#6c14d0);
+    border: none;
+}
+.shoelist1 #addToCart a{
+    padding:10px;
+    text-decoration: none;
+    color: rgb(238, 235, 235);
+}
+.shoelist1 .about p{
+    color: rgb(95, 94, 94);
+}
+
+.box img{
+    height: 60px;
+    padding: 3px;
+}
+.box{
+    /* border: 1px solid black; */
+    margin: 10px 0px;
+    background: linear-gradient(to right,#6c14d0,#c72092);
+    border-radius: 5px;
+}
+.shoeImagesBox{
+    display: flex;
+    margin: 0px 70px;
+    
+}
+.shoe{
+    margin-right: 20px;
+}
+.fullShoeImage img{
+    height: 400px;
+    padding: 0px 20px;
+}
+.fullShoeImage{
+    border: 2px solid #470394;
+    border-radius: 10px;
+    box-shadow: 0px 1px 20px #6c14d0 ;
+    height: 400px;
+    width: 600px;
+}
+.aboutText{
+    height: 300px;
+    width: 500px;
+    border: 2px solid #c72092;
+    border-radius: 10px;
+    box-shadow:0px 1px 20px #c72092;
+    padding: 20px;
+    margin-right: 280px;
+}
+.sub1_container3{
+    display: flex;
+    width: 100%;
+    /* width:max-content; */
+    /* margin: 20px auto; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container3{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+#btn2 a{
+    text-decoration: none;
+    padding: 10px;
+}
+#btn2{
+    height: 30px;
+    width: 90px;
+    border: 1px solid #c72092;
+    box-shadow: 0px 1px 10px #c72092;
+}
+#btn2:hover{
+    background-color: #f510ad;
+    /* color: white; */
+}
+.container3 .about{
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+.about #about{
+    background:linear-gradient(to right,#6c14d0,#c72092);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-left: 10px;
+}
+
+.sub2_container4 .customerReviewListRow .profile .profilepic img{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px rgb(95, 94, 94);
+    border: 2px solid rgb(146, 143, 143);
+    
+}
+.profile .profilepic{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.sub2_container4 .customerReviewListRow .profile{
+    display: flex;
+    margin-bottom: 30px;
+}
+.sub2_container4 .customerReviewListRow{
+    /* border:1px solid red; */
+    box-shadow: 0px 1px 10px rgb(95, 94, 94) ;
+    border-radius: 10px;
+    height: 150px;
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(232, 230, 230);
+}
+.sub2_container4{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub3_container4 .customerReviewListRow .profile .profilepic img{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px rgb(95, 94, 94);
+    border: 2px solid rgb(146, 143, 143);
+    
+}
+.sub2_container4 .customerReviewListRow .profile .profilepic img:hover{
+    height: 45px;
+    width: 45px;
+    transition: 0.3s;
+}
+.sub3_container4 .customerReviewListRow .profile .profilepic img:hover{
+    height: 45px;
+    width: 45px;
+    transition: 0.3s;
+}
+.profile .profilepic{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.sub3_container4 .customerReviewListRow .profile{
+    display: flex;
+    margin-bottom: 30px;
+}
+/* .sub3_container4 .customerReviewListRow .profile .profileName #name{
+   display: blockS;
+} */
+.sub3_container4 .customerReviewListRow{
+    box-shadow: 0px 1px 10px rgb(95, 94, 94) ;
+    border-radius: 10px;
+    height: 150px;
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(232, 230, 230);
+}
+.sub3_container4{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+.profileName #rating i{
+    color: rgb(255, 196, 0);
+    /* outline: 1px solid black; */
+}
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+.container4 .sub1_container4{
+    margin: 10px 0px 50px;
+    font-size: 25px;
+}
+.container4 .sub1_container4 #customersreview{
+    background: linear-gradient(to right ,#6c14d0,#c72092);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 20px;
+}
+
+.container5 .sub2_container5{
+    display:flex;
+    margin-top: 30px;
+}
+.container5 .sub2_container5 .servicesItems{
+    height: 150px;
+    width: 200px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    margin: 0px 20px;
+}
+.container5 .sub2_container5 .servicesItems i{
+    color:rgb(252, 181, 1) ;
+    font-size: 40px;
+    padding: 10px;
+    
+}
+.container5 .sub2_container5 .servicesItems p{
+    color: rgb(126, 126, 126);
+    padding: 10px 5px;
+}
+.container5{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container5 .sub1_container5{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.container5 .sub1_container5 #ourServices{
+    background: linear-gradient(to right,#6c14d0,#c72092);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10px;
+
+}
+
+.container6{
+    background-image: url("/image/loging_bg.png");
+    /* background-image: url("/image/bg1.png"); */
+    /* background-size: contain; */
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container6 .sub2_container6{
+    /* border: 1px solid rgb(100, 164, 4); */
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.container6 .sub2_container6 form{
+    display: flex;
+    flex-direction: column;
+}
+.container6 .sub2_container6 form input{
+    height: 30px;
+    width: 250px;
+    background-color: transparent;
+    /* border: 2px solid #c72092; */
+    border: none;
+    margin-left: 10px;
+    outline: none;
+}
+.container6 .sub2_container6 form div{
+    margin: 5px 0px;
+}
+.container6 .sub2_container6 form div label{
+    color: rgb(88, 87, 87);
+    font-weight: bold;
+}
+.usernameAndPassword{
+    border: 2px solid #aa14d0;
+    border-radius: 3px;
+    padding: 0px 10px;
+}
+.container6 .sub2_container6 form .usernameAndPassword i{
+    color: #f510ad;
+}
+.container6 .sub2_container6 form input[type="submit"]{
+    background: linear-gradient(to right,#c72092,#6c14d0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 34px;
+    width: 280px;
+    padding-left: 5px;
+}
+.container6 .sub2_container6 form .login{
+    width: 294px;
+    height: 34px;
+    /* border: 1px solid black; */
+    background: linear-gradient(to right,#c72092,#6c14d0);
+    border-radius: 5px;
+
+}
+.container6 .sub3_container6 img{
+    height: 25px;
+    width: 25px;
+    padding: 7px 5px 5px ;
+}
+.container6 .sub3_container6 span{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: azure;
+    text-align: center;
+    line-height: 40px;
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+.container6 .sub3_container6{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+.container6 .sub2_container6 h2{
+    font-family: 'Dancing Script', cursive; 
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.sub2_container6 form .forgotPassword a{
+    margin-left: 180px;
+    text-decoration: none;
+
+}
+.container7{
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    /* border: 1px solid red; */
+    background-color: #e6e4e9;
+}
+.container7 .everydiv{
+    height: 150px;
+    width: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.container7 .everydiv h3{
+    color: #4b029f;
+}
+.followUs div i{
+    font-size: 20px;
+    margin:0px 10px ;
+    /* border: 1px solid green; */
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+}
+.followUs div i:hover{
+    background: linear-gradient(to right,#7606f5,#f510ad);
+    transition-duration: 1s;
+    color: white;
+    transition-property:all;
+}
+.getHelp div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.getHelp div a{
+    text-decoration: none;
+    color: black;
+    /* margin: px 0px; */
+}
+.container7 .contact .contactItems  i{
+   margin: 0px 10px;
+}
+.container7 .contact .contactItems  i:hover{
+    color: #f510ad;
+}
+.container7 .contact .contactItems div{
+    margin: 10px 0px;
+}
+.newsLetter div{
+    display: flex;
+    flex-direction: column;
+}
+.newsLetter div input{
+    height: 25px;
+    width: 200px;
+    border-radius: 15px;
+    outline: none;
+    padding: 0px 10px;
+    border: none;
+    background-color: rgb(194, 193, 193);
+}
+.newsLetter div .subscribeButton{
+    width: 80px;
+    padding: 3px;
+    margin-top: 10px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    background: linear-gradient(to right,#f510ad,#7606f5);
+    font-size: 12px;
+}
+.newsLetter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    height: 150px;
+    width: 300px;
+    /* border: 1px solid black; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    justify-content: space-around;
+}
+.newsLetter h3{
+    color: #4b029f;
+}
